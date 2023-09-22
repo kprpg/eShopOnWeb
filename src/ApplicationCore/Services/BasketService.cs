@@ -8,6 +8,7 @@ using Microsoft.eShopWeb.ApplicationCore.Specifications;
 
 namespace Microsoft.eShopWeb.ApplicationCore.Services;
 
+// Marked for tests
 public class BasketService : IBasketService
 {
     private readonly IRepository<Basket> _basketRepository;
